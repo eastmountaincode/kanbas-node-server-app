@@ -1,3 +1,8 @@
+import "dotenv/config";
+import dotenv from 'dotenv';
+dotenv.config();
+console.log('Immediately after dotenv.config:', process.env.FRONTEND_URL);
+
 import express from 'express';
 import Hello from "./hello.js";
 import Lab5 from './Lab5.js';
@@ -5,9 +10,10 @@ import CourseRoutes from './courses/routes.js';
 import ModuleRoutes from './modules/routes.js'
 import AssignmentRoutes from './assignments/routes.js'
 import cors from "cors";
-import "dotenv/config";
 
 const app = express();
+console.log('Frontend URL:', process.env.FRONTEND_URL);
+
 app.use(express.json());
 app.use(cors({
         credentials: true,
