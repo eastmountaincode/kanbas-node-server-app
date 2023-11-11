@@ -10,7 +10,7 @@ import "dotenv/config";
 const app = express();
 app.use(express.json());
 app.use(cors({
-        credientials: true,
+        credentials: true,
         origin: process.env.FRONTEND_URL
     })
 );
@@ -26,5 +26,5 @@ Hello(app);
 const port = process.env.PORT || 4000;
 
 app.listen(port, () => {
-    console.log(`Server running on http://localhost:${port}`);
+    console.log(`Server running on port ${port}`);
 });
