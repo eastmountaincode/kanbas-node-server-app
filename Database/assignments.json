@@ -1,0 +1,17 @@
+[
+    { "_id": "A101", "title": "Propulsion Assignment", "course": "RS101", "dueDate": "2023-11-01", "availableFromDate": "2023-10-01", "availableUntilDate": "2023-11-15", "description": "Study on propulsion mechanics." },
+    { "_id": "A102", "title": "Combustion Analysis", "course": "RS101", "dueDate": "2023-11-05", "availableFromDate": "2023-10-05", "availableUntilDate": "2023-11-20", "description": "Analysis of combustion reactions." },
+    { "_id": "A103", "title": "Nozzle Design Project", "course": "RS101", "dueDate": "2023-11-10", "availableFromDate": "2023-10-10", "availableUntilDate": "2023-11-25", "description": "Design and analysis of nozzle structures." },
+    { "_id": "A201", "title": "Aerodynamics Quiz", "course": "RS102", "dueDate": "2023-11-15", "availableFromDate": "2023-10-15", "availableUntilDate": "2023-11-30", "description": "Quiz covering basic aerodynamics." },
+    { "_id": "A202", "title": "Flow Analysis", "course": "RS102", "dueDate": "2023-11-20", "availableFromDate": "2023-10-20", "availableUntilDate": "2023-12-05", "description": "Study on fluid flow dynamics." },
+    { "_id": "A203", "title": "Heating Analysis", "course": "RS102", "dueDate": "2023-11-25", "availableFromDate": "2023-10-25", "availableUntilDate": "2023-12-10", "description": "Analysis of heat transfer mechanisms." },
+    { "_id": "A301", "title": "Structural Design Task", "course": "RS103", "dueDate": "2023-12-01", "availableFromDate": "2023-11-01", "availableUntilDate": "2023-12-15", "description": "Task focusing on structural design." },
+    { "_id": "A302", "title": "Orbital Calculations", "course": "RS103", "dueDate": "2023-12-05", "availableFromDate": "2023-11-05", "availableUntilDate": "2023-12-20", "description": "Calculations related to orbital physics." },
+    { "_id": "A303", "title": "Systems Engineering Exam", "course": "RS103", "dueDate": "2023-12-10", "availableFromDate": "2023-11-10", "availableUntilDate": "2023-12-25", "description": "Exam on systems engineering principles." },
+    { "_id": "A401", "title": "Explore exploration exploration", "course": "RS104", "dueDate": "2023-12-15", "availableFromDate": "2023-11-15", "availableUntilDate": "2023-12-30", "description": "An exploration of exploration methods." },
+    { "_id": "A402", "title": "Some other assignment", "course": "RS104", "dueDate": "2023-12-20", "availableFromDate": "2023-11-20", "availableUntilDate": "2024-01-05", "description": "An assignment covering various topics." },
+    { "_id": "A403", "title": "Yet another assignment", "course": "RS104", "dueDate": "2023-12-25", "availableFromDate": "2023-11-25", "availableUntilDate": "2024-01-10", "description": "Another assignment on diverse subjects." },
+    { "_id": "A501", "title": "Bat Identification", "course": "RS105", "dueDate": "2024-01-01", "availableFromDate": "2023-12-01", "availableUntilDate": "2024-01-15", "description": "Identification and study of bat species." },
+    { "_id": "A502", "title": "Stealth Practice", "course": "RS105", "dueDate": "2024-01-05", "availableFromDate": "2023-12-05", "availableUntilDate": "2024-01-20", "description": "Practice and analysis of stealth techniques." },
+    { "_id": "A503", "title": "Bat Tracking", "course": "RS105", "dueDate": "2024-01-10", "availableFromDate": "2023-12-10", "availableUntilDate": "2024-01-25", "description": "Methods and techniques for tracking bats." }
+]
