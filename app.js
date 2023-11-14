@@ -17,7 +17,7 @@ console.log('Frontend URL:', process.env.FRONTEND_URL);
 app.use(express.json());
 app.use(cors({
     credentials: true,
-    origin: "https://a5--lively-cat-37092b.netlify.app"
+    origin: process.env.FRONTEND_URL
 }));
 
 ModuleRoutes(app)
