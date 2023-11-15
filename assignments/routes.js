@@ -19,6 +19,7 @@ function AssignmentRoutes(app) {
     // Create assignment
     app.post("/api/assignments", (req, res) => {
         const assignment = { ...req.body, _id: new Date().getTime().toString() };
+        console.log("new assignment on server:", assignment);
         Database.assignments.push(assignment);
         res.send(assignment);
     });
