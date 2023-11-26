@@ -1,6 +1,6 @@
 import model from "./model.js";
 export const createUser = (user) => model.create(user);
-export const findAllUsers = () => model.find();
+export const findAllUsers = () => model.find().sort({createdAt: -1});
 export const findUserById = (userId) => model.findById(userId);
 export const findUserByUsername = (username) =>
     model.findOne({ username: username });

@@ -12,5 +12,5 @@ const userSchema = new mongoose.Schema({
         default: "USER"
     },
 },
-    { collection: "users" });
+    { collection: "users", timestamps: true });
 export default userSchema;
